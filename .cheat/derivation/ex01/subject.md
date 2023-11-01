@@ -11,9 +11,6 @@ Prototype `default.nix` as follows:
 ...
 ```
 
-Here's the repository for `tinychess`: https://github.com/zwegner/tinychess
-Use the following commit: 5a3395a
-
 ## Requirements
 
 - The command `nix-build` successfully builds the program.
@@ -23,6 +20,13 @@ Use the following commit: 5a3395a
 ```bash
 $ nix eval --file ./default.nix src.url
 "https://github.com/zwegner/tinychess.git"
+```
+
+- We have the correct commit
+
+```bash
+$ nix eval --file ./default.nix src.rev
+"5a3395a"
 ```
 
 - We have defined a description for the package
