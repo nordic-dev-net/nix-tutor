@@ -420,13 +420,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ex02"
-version = "0.1.0"
-dependencies = [
- "actix-web",
-]
-
-[[package]]
 name = "flate2"
 version = "1.0.28"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -909,6 +902,13 @@ dependencies = [
  "itoa",
  "ryu",
  "serde",
+]
+
+[[package]]
+name = "server"
+version = "1.0.0"
+dependencies = [
+ "actix-web",
 ]
 
 [[package]]
