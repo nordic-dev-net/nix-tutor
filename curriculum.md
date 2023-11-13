@@ -62,8 +62,9 @@ Focus on packaging software efficiently using Nix derivations.
 | **DR00** | Shell Script        | None           | Package a simple shell script with Nix.                  |
 | **DR01** | C Program           | DR00           | Create a Nix package for a C program.                    |
 | **DR02** | Built-in Derivation | DR01           | Employ the built-in `derivation` function for packaging. |
-| **DR03** | Rust Program        | DR02           | Package a Rust application using `rustPlatform`.         |
-| **DR04** | Python Script       | DR02           | Develop a Nix package for a Python script.               |
+| **DR03** | Tinychess           | DR01           | Package the program `tinychess` from Github.             |
+| **DR04** | Rust Program        | DR03           | Package a Rust application using `rustPlatform`.         |
+| **DR05** | Python Script       | DR03           | Develop a Nix package for a Python script.               |
 
 ### 03: Flakes
 
@@ -103,8 +104,8 @@ Integrating Nix with Continuous Integration (CI/CD) pipelines enhances automated
 
 | ID       | Project               | Prerequisites | Description                                                       |
 | -------- | --------------------- | ------------- | ----------------------------------------------------------------- |
-| **CI00** | CI Basics with Nix    | None          | Learn how to integrate Nix with basic CI/CD pipelines.            |
-| **CI01** | Advanced CI Strategies| CI00          | Implement advanced CI/CD strategies using Nix.                    |
+| **CI00** | Basic CI              | None          | Learn how to integrate Nix with basic CI/CD pipelines.            |
+| **CI01** | CI Advanced Strategies| CI00          | Implement advanced CI/CD strategies using Nix.                    |
 | **CI02** | Pipeline Optimization | CI01          | Optimize CI/CD pipelines for speed and reliability using Nix.     |
 | **CI03** | Multi-platform CI     | CI02          | Set up CI/CD pipelines for multi-platform builds with Nix.        |
 
