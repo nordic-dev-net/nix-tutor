@@ -82,10 +82,9 @@ This module focuses on understanding and creating reusable Nix modules, a key co
 
 | ID       | Project                | Prerequisites | Description                                                          |
 | -------- | ---------------------- | ------------- | -------------------------------------------------------------------- |
-| **NM00** | Module Basics          | None          | Introduction to Nix modules, their structure, and basic concepts.    |
-| **NM01** | Creating Custom Modules| NM00          | Learn to create and integrate custom modules into NixOS.             |
-| **NM02** | Module Composition     | NM01          | Explore how to compose and reuse modules for various environments.   |
-| **NM03** | Advanced Techniques    | NM02          | Implement advanced module features like conditionals and assertions. |
+| **NM00** | Basic Module           | None          | Introduction to Nix modules, their structure, and basic concepts.    |
+| **NM01** | Module Composition     | NM01          | Explore how to compose and reuse modules for various environments.   |
+| **NM02** | Advanced Module        | NM02          | Implement advanced module features like conditionals and assertions. |
 
 ## 6. Deployment Practices
 
@@ -94,9 +93,9 @@ This topic covers best practices for deploying applications using Nix, emphasizi
 | ID       | Project                    | Prerequisites | Description                                                            |
 | -------- | -------------------------- | ------------- | ---------------------------------------------------------------------- |
 | **DP00** | Basic Deployment           | None          | Fundamental principles of deploying applications with Nix.             |
-| **DP01** | Reproducible Environments  | DP00          | Techniques to ensure environment reproducibility across deployments.   |
-| **DP02** | Efficiency Optimization    | DP01          | Optimize deployments for performance and resource utilization.         |
-| **DP03** | Deployment Automation      | DP02          | Automate deployment processes using Nix tooling and scripts.           |
+| **DP01** | Reproducible Environment   | DP00          | Techniques to ensure environment reproducibility across deployments.   |
+| **DP02** | Efficient Deployment       | DP01          | Optimize deployments for performance and resource utilization.         |
+| **DP03** | Automated Deployment       | DP02          | Automate deployment processes using Nix tooling and scripts.           |
 
 ## 7. Continuous Integration
 
@@ -115,7 +114,5 @@ Engage with the broader Nix community and explore its diverse ecosystem, includi
 
 | ID       | Project               | Prerequisites | Description                                                                |
 | -------- | --------------------- | ------------- | -------------------------------------------------------------------------- |
-| **EC00** | Community Engagement  | None          | Learn about the Nix community, its platforms, and contribution guidelines. |
-| **EC01** | Exploring Nix Tools   | None          | Discover and utilize various tools within the Nix ecosystem.               |
-| **EC02** | Best Practices        | None          | Study and apply Nix best practices as recommended by the community.        |
-| **EC03** | Contribution to Nix   | None          | Contribute to the Nix community through projects, documentation, or code.  |
+| **EC00** | Best Practices        | None          | Study and apply Nix best practices as recommended by the community.        |
+| **EC01** | Contribution to Nix   | None          | Contribute to the Nix community through projects, documentation, or code.  |
