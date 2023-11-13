@@ -2,7 +2,7 @@
 
 This curriculum is an advanced and comprehensive guide for mastering the Nix ecosystem, leveraging project-based peer-learning. It's structured into several topics, each containing detailed projects. Every project must be completed as per the instructions in the `subject.md` document found in each project folder, along with any supplemental materials provided.
 
-## Curriculum Overview
+## :pushpin: Curriculum Overview
 
 The Nix Tutor curriculum is segmented into the following topics:
 
@@ -17,7 +17,7 @@ The Nix Tutor curriculum is segmented into the following topics:
 | **CI** | Continuous Integration     | Integrate Nix with CI/CD pipelines for automated workflows.            |
 | **EC** | Ecosystem and Community    | Engage with the Nix community and its ecosystem.                       |
 
-## General Instructions
+## :dart: General Instructions
 
 - Every project may have prerequisites that must be fulfilled prior to submission.
 - Project folders, acting as Git repositories, should contain a `subject.md` and essential materials.
@@ -26,7 +26,7 @@ The Nix Tutor curriculum is segmented into the following topics:
 - Projects might encompass multiple exercises, each contributing to the overall learning objectives.
 - The use of AI tools such as ChatGPT is discouraged. Use forums, tutorials and documentation to gain the relevant information for best learning results.
 
-## Topics
+## :open_book: Topics
 
 ### 00: Language and Tools
 
