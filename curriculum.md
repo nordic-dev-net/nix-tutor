@@ -28,7 +28,7 @@ The Nix Tutor curriculum is segmented into the following topics:
 
 ## Topics
 
-### 1. Language and Tools
+### 00: Language and Tools
 
 This module is a deep dive into Nix language fundamentals and tooling.
 
@@ -39,7 +39,7 @@ This module is a deep dive into Nix language fundamentals and tooling.
 | **LT02**  | Debugging      | LT01          | Techniques for debugging complex Nix expressions.                 |
 | **LT03**  | Advanced Tools | LT02          | Explore advanced Nix tools for optimization and efficiency.       |
 
-### 2. NixOS Operating System
+### 01: NixOS Operating System
 
 Learn about building, configuring, and updating a NixOS system.
 
@@ -53,7 +53,7 @@ Learn about building, configuring, and updating a NixOS system.
 | **OS05**  | Overlays      | OS02, OS03     | Utilize overlays for package modifications.        |
 | **OS06**  | Kernel        | OS05           | Customize kernel configurations and apply patches. |
 
-### 3. Derivations
+### 02: Derivations
 
 Focus on packaging software efficiently using Nix derivations.
 
@@ -65,7 +65,7 @@ Focus on packaging software efficiently using Nix derivations.
 | **DR03** | Rust Program        | DR02           | Package a Rust application using `rustPlatform`.         |
 | **DR04** | Python Script       | DR02           | Develop a Nix package for a Python script.               |
 
-### 4. Flakes
+### 03: Flakes
 
 Explore the advanced features of Nix flakes for project and system management.
 
@@ -76,7 +76,7 @@ Explore the advanced features of Nix flakes for project and system management.
 | **FL02** | System Flake       | FL00, OS01     | Construct a NixOS system flake.                     |
 | **FL03** | Multi-system Flake | FL02           | Implement a flake suitable for multiple systems.    |
 
-## 5. Nix Modules
+## 04: Nix Modules
 
 This module focuses on understanding and creating reusable Nix modules, a key component for scalable and maintainable Nix configurations.
 
@@ -86,7 +86,7 @@ This module focuses on understanding and creating reusable Nix modules, a key co
 | **NM01** | Module Composition     | NM01          | Explore how to compose and reuse modules for various environments.   |
 | **NM02** | Advanced Module        | NM02          | Implement advanced module features like conditionals and assertions. |
 
-## 6. Deployment Practices
+## 05: Deployment Practices
 
 This topic covers best practices for deploying applications using Nix, emphasizing reliability, reproducibility, and efficiency.
 
@@ -97,7 +97,7 @@ This topic covers best practices for deploying applications using Nix, emphasizi
 | **DP02** | Efficient Deployment       | DP01          | Optimize deployments for performance and resource utilization.         |
 | **DP03** | Automated Deployment       | DP02          | Automate deployment processes using Nix tooling and scripts.           |
 
-## 7. Continuous Integration
+## 06: Continuous Integration
 
 Integrating Nix with Continuous Integration (CI/CD) pipelines enhances automated testing and deployment workflows.
 
@@ -108,7 +108,7 @@ Integrating Nix with Continuous Integration (CI/CD) pipelines enhances automated
 | **CI02** | Pipeline Optimization | CI01          | Optimize CI/CD pipelines for speed and reliability using Nix.     |
 | **CI03** | Multi-platform CI     | CI02          | Set up CI/CD pipelines for multi-platform builds with Nix.        |
 
-## 8. Ecosystem and Community
+## 07: Ecosystem and Community
 
 Engage with the broader Nix community and explore its diverse ecosystem, including tools, libraries, and best practices.
 
