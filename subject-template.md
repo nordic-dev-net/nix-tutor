@@ -6,7 +6,7 @@
 
 _Short project description._
 
-### Materialso :open_file_folder: 
+### Materials :open_file_folder: 
 
 _Explain in detail all the materials related to the project, either ones provided in the subject folder or external dependencies and/or resources._
 
