@@ -2,7 +2,7 @@
 
 This curriculum is an advanced and comprehensive guide for mastering the Nix ecosystem, leveraging project-based peer-learning. It's structured into several topics, each containing detailed projects. Every project must be completed as per the instructions in the `subject.md` document found in each project folder, along with any supplemental materials provided.
 
-## :pushpin: Curriculum Overview
+## Curriculum Overview :rocket: 
 
 The Nix Tutor curriculum is segmented into the following topics:
 
@@ -17,7 +17,7 @@ The Nix Tutor curriculum is segmented into the following topics:
 | **CI** | Continuous Integration     | Integrate Nix with CI/CD pipelines for automated workflows.            |
 | **EC** | Ecosystem and Community    | Engage with the Nix community and its ecosystem.                       |
 
-## :dart: General Instructions
+## General Instructions :pushpin:
 
 - Every project may have prerequisites that must be fulfilled prior to submission.
 - Project folders, acting as Git repositories, should contain a `subject.md` and essential materials.
@@ -26,7 +26,25 @@ The Nix Tutor curriculum is segmented into the following topics:
 - Projects might encompass multiple exercises, each contributing to the overall learning objectives.
 - The use of AI tools such as ChatGPT is discouraged. Use forums, tutorials and documentation to gain the relevant information for best learning results.
 
-## :open_book: Topics
+## Submission :ballot_box:
+
+_Submission instructions. Should be very similar for each project._
+
+- Create a remote Git repository with the name `name` and commit all the project files including the `subject.md`.
+- Commit a file called `EVALS` at the root of the repository. Replace with your name and email.
+
+```
+> cat -e EVALS
+Firstname Lastname, <email>$
+```
+
+- Submitted files need to be on a branch called `main`.
+
+## Evaluation :balance_scale:
+
+_Explain evaluation guidelines._
+
+## Topics :open_book:
 
 ### 00: Language and Tools
 
@@ -117,3 +135,7 @@ Engage with the broader Nix community and explore its diverse ecosystem, includi
 | -------- | --------------------- | ------------- | -------------------------------------------------------------------------- |
 | **EC00** | Best Practices        | None          | Study and apply Nix best practices as recommended by the community.        |
 | **EC01** | Contribution to Nix   | None          | Contribute to the Nix community through projects, documentation, or code.  |
+
+---
+
+If you want to suggest an improvement, correction or clarification, please don't hesitate to [file an issue or create a pull request](https://github.com/nordic-dev-net/nix-tutor)!
