@@ -53,7 +53,7 @@ Firstname Lastname, <email>
 Firstname Lastname, <email>$
 ```
 
-## Topics :open_book:
+## Curriculum :mortar_board:
 
 ### 00: Language and Tools
 
