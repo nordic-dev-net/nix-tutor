@@ -42,7 +42,16 @@ Firstname Lastname, <email>$
 
 ## Evaluation :balance_scale:
 
-_Explain evaluation guidelines._
+- Evaluations need to be conducted either in-person or via voice or video connection.
+- Evaluator should make sure that the all the instructions are followed and all the requirements met outlined in the subject.
+- If the evaluation passes, the evaluator will commit (either directly or via fork/PR) to the `EVALS` file in the student's repository by adding his/her name and email after the student's like so:
+
+```
+> cat -e EVALS
+Firstname Lastname, <email>
+---
+Firstname Lastname, <email>$
+```
 
 ## Topics :open_book:
 
