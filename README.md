@@ -2,7 +2,7 @@
 
 This curriculum is an advanced and comprehensive guide for mastering the Nix ecosystem, leveraging project-based peer-learning. It's structured into several topics, each containing detailed projects. Every project must be completed as per the instructions in the `subject.md` document found in each project folder, along with any supplemental materials provided.
 
-## Curriculum Overview :rocket: 
+## Curriculum Overview :rocket:
 
 The Nix Tutor curriculum is segmented into the following topics:
 
